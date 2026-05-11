@@ -1,0 +1,62 @@
+body{
+    font-family: sans-serif;
+    background-color: #defcf9;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 30px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+select{
+    width: 100%;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+h2{
+    font-size: 48px;
+    margin: 0 0 5px;
+
+}
+.city{
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-between;
+    padding: 30px 0;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+
+.city:last-child{
+    border: none;
+}
+
+.date{
+    opacity: 0.7;
+}
+
+.time{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.time small{
+    font-size: 24px;
+    vertical-align: middle;
+    font-weight: lighter;
+
+}
+
+footer{
+    text-align: center;
+}
